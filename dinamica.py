@@ -69,7 +69,3 @@ def jugar(monedas, eleccion):
     return jugadas
 
 
-monedas = [3, 9, 1, 2]
-tabla, eleccion = calcular(monedas)
-print(tabla[0][len(monedas) - 1])
-print(jugar(monedas, eleccion))
